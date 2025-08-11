@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.section {
+  padding: 50px 20px;
+}
+
+.section h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 16px;
+  color: #6c757d; /* Bootstrap muted text color */
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  width: 250px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing-card.featured .pricing-header {
+  background-color: #5ecf84;
+  color: #fff;
+}
+
+.pricing-header {
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.pricing-price {
+  font-size: 1.8rem;
+  padding: 20px 10px 10px;
+}
+
+.currency {
+  font-size: 1rem;
+  vertical-align: super;
+}
+
+.per {
+  font-size: 0.9rem;
+  color: #999;
+  margin-left: 4px;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+.pricing-features li {
+  padding: 8px 0;
+  color: #333;
+}
+
+.pricing-features .disabled {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.pricing-footer {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.buy-button {
+  background-color: #5ecf84;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.buy-button:hover {
+  background-color: #4abc6b;
+}
